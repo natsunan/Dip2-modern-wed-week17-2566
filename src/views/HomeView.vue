@@ -18,17 +18,36 @@ const notify = () => {
 </script>
 
 <template>
+
   <div class="container my-5">
-    <div class="card shadow" style="width: 20rem;">
-      <div class="card-header p-0">
-        <img src="https://www.bethailand.com/Picture/P03006643_1.jpeg" class="card-img-top"
-          alt="img">
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Home Page</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary" @click="notify">Read...</a>
-      </div>
+    <div class="card-group">
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/%E0%B8%9C%E0%B8%B2%E0%B9%82%E0%B8%87%E0%B9%89%E0%B8%A1_%E0%B8%AD%E0%B8%8A.%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B9%81%E0%B8%88.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">อุทยานแห่งชาติขุนแจ</h5>
+      <p class="card-text">อุทยานแห่งชาติขุนแจ ตั้งอยู่ในท้องที่อำเภอเวียงป่าเป้า จังหวัดเชียงราย ห่างจากตัวเมืองจังหวัดเชียงใหม่ 62 กิโลเมตรตามทางหลวงสายเชียงใหม่-เชียงราย (ทางหลวงหมายเลข 118) จัดตั้งเป็นอุทยานแห่งชาติเมื่อปี พ.ศ. 2538 เป็นแหล่งต้นน้ำสำคัญครอบคลุมพื้นที่ประมาณ 280 ตารางกิโลเมตร[2] ภายในอุทยานมีสัตว์ป่านานาชนิด มีน้ำตกและทิวทัศน์ที่สวยงาม และเป็นถิ่นที่อยู่ของชาวเขามานานกว่า 100 ปี</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
     </div>
   </div>
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%A0%E0%B8%B9%E0%B9%80%E0%B8%81%E0%B9%89%E0%B8%B2-%E0%B8%A0%E0%B8%B9%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%B3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">อุทยานแห่งชาติภูเก้า-ภูพานคำ</h5>
+      <p class="card-text">อุทยานแห่งชาติภูเก้า-ภูพานคำ มีที่ทำการอุทยานฯ อยู่ที่ริมทะเลสาบเหนือเขื่อนอุบลรัตน์ เชิงเขาภูพานคำ เขตอำเภอโนนสัง เป็นพื้นที่ในบริเวณที่ราบสูงภาคตะวันออกเฉียงเหนือตอนบน ตั้งอยู่ในบริเวณตอนล่างของจังหวัดอุดรธานี และตอนบนของจังหวัดขอนแก่น สภาพธรณี เป็นภูเขาหินทรายซึ่งมีชั้นของของหินทรายอยู่ด้านบนระดับผิวดิน โดยมีชั้นของหินดินดาน หรือหินดินดานปนทรายเป็นฐานด้านล่าง มีดินประเภทดินลูกรังและดินร่วนปนทราย กระจัดกระจายอยู่ทั่วไป ประกอบไปด้วยพันธุ์ไม้ สัตว์ป่า ทิวทัศน์ที่สวยงามตามธรรมชาติ และสภาพป่าโดยทั่วไปเป็นป่าเต็งรัง มีเนื้อที่ประมาณ 322 ตารางกิโลเมตร หรือ 201,250 ไร่</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Mu_Ko_Similan_National_Park_Phang_Nga.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">อุทยานแห่งชาติหมู่เกาะสิมิลัน</h5>
+      <p class="card-text">อุทยานแห่งชาติหมู่เกาะสิมิลัน ตั้งอยู่ในท้องตำบลเกาะพระทอง อำเภอคุระบุรี จังหวัดพังงา (ที่ทำการอุทยานตั้งอยู่ที่ตำบลลำแก่น อำเภอท้ายเหมือง) ครอบคลุมพื้นที่ 80,000 ไร่ หรือ 128 ตารางกิโลเมตร ประกาศเป็นอุทยานแห่งชาติ เมื่อ 1 กันยายน พ.ศ. 2525 คำว่า สิมิลัน เป็นภาษามลายูแปลว่า เก้า หมู่เกาะสิมิลันเป็นหมู่เกาะเล็ก ๆ ในทะเลอันดามัน มี 9 เกาะ เรียงจากเหนือมาใต้คือ เกาะหูยง เกาะปายัง เกาะปาหยัน เกาะเมี่ยง เกาะปายู เกาะหัวกะโหลก เกาะสิมิลัน และเกาะบางู หมู่เกาะสิมิลัน ได้รับการยกย่องว่าเป็นหมู่เกาะที่มีความสวยงามทั้งบนบกและใต้น้ำ มีปะการังที่สวยงามหลายชนิด สามารถดำน้ำได้ทั้งน้ำตื้นและน้ำลึก สามารถพบปลาที่หายาก เช่น วาฬ โลมา ปลาไหลมอเรย์ ช่วงเดือนที่น่าเที่ยวมากที่สุดคือช่วงเดือนพฤศจิกายนถึงเดือนเมษายน นอกจากนั้นจะประกาศปิดเกาะ</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+  </div>
 </template>
+
+
+
