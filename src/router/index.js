@@ -30,13 +30,13 @@ const router = createRouter({
     {
       path: '/wonders',
       name: 'wonders',
-      meta: { title: 'สิ่งมหัศจรรย์ของโลก' },
+      meta: { title: 'อุทยานแห่งชาติ' },
       component: () => import('../views/WonderView.vue')
     },
     {
       path: '/add-wonder',
       name: 'add-wonder',
-      meta: { title: 'เพิ่มสิ่งมหัศจรรย์ของโลก' },
+      meta: { title: 'เพิ่มอุทยานแห่งชาติ' },
       component: () => import('../components/Wonder/AddWonder.vue')
     },
     {

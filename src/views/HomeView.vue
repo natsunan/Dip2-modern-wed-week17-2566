@@ -2,13 +2,13 @@
 import { toast } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
 
-toast.info("ยินดีต้อนรับแผนกเทคโนโลยีสารสนเทศ", {
+toast.info("ยินดีต้อนรับเข้าสู่อุทยานแห่งชาติ", {
   autoClose: 1500,
   position:toast.POSITION.TOP_CENTER
 })
 
 const notify = () => {
-  toast.success("ยินดีต้อนรับแผนกเทคโนโลยีสารสนเทศ", {
+  toast.success("ยินดีต้อนรับเข้าสู่อุทยานแห่งชาติ", {
     autoClose: 1500,
     position: toast.POSITION.TOP_CENTER
   })
@@ -21,7 +21,7 @@ const notify = () => {
   <div class="container my-5">
     <div class="card shadow" style="width: 20rem;">
       <div class="card-header p-0">
-        <img src="https://the7eagles.com/wp-content/uploads/2022/02/web-development-image-01.png" class="card-img-top"
+        <img src="https://www.bethailand.com/Picture/P03006643_1.jpeg" class="card-img-top"
           alt="img">
       </div>
       <div class="card-body">

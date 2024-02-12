@@ -82,18 +82,18 @@ const submitForm = async () => {
             <div class="col-md-5 mb-1">
                 <div class="card shadow">
                     <div class="card-header p-0">
-                        <img src="https://cdn.pixabay.com/photo/2016/08/03/13/33/stone-henge-1566686_640.jpg"
+                        <img src="https://v4i.rweb-images.com/www.khaokho.com/images/editor/Tungsalaengluang02.jpg"
                             class="card-img-top" alt="sign">
                     </div>
                     <div class="card-body">
-                        <p class="card-text text-end">สิ่งมหัศรรย์ของโลก 2024.</p>
+                        <p class="card-text text-end">อุทยานแห่งชาติ 2024.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-7">
                 <div class="card shadow">
-                    <div class="card-header bg-primary text-white">
+                    <div class="card-header bg-warning text-white">
                         <h5>ระบบลงทะเบียนผู้ใช้งาน</h5>
                     </div>
                     <div class="card-body">
