@@ -5,7 +5,7 @@
             <div class="col-md-5 mb-1 mx-auto">
                 <div class="card shadow">
                     <div class="card-header p-0">
-                        <img src="http://www.pateawthai.com/fileupload/content_tem_pic/76_20190825043219_1.jpg" class="card-img-top" alt="wonders">
+                        <img src="https://www.bethailand.com/Picture/P03006643_1.jpeg" class="card-img-top" alt="อุทยานแห่งชาติ">
                     </div>
                 </div>
             </div>
